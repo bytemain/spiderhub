@@ -1,0 +1,26 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.tuna.tsinghua.edu.cn/simple"
+verify_ssl = true
+
+[dev-packages]
+flake8 = "*"
+pytest = "*"
+yapf = "*"
+autopep8 = "*"
+black = "*"
+mypy = "*"
+
+[packages]
+flask = "*"
+quart = "*"
+requests = "*"
+beautifulsoup4 = "*"
+lxml = "*"
+arrow = "*"
+
+[requires]
+python_version = "3.7"
+
+[pipenv]
+allow_prereleases = true
